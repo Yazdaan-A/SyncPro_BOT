@@ -55,7 +55,7 @@ DATABASE_URL="your-database-url"
 pip install -r requirements.txt
 streamlit run main.py
 
-☁️ Deploying to Streamlit Cloud
+##☁️ Deploying to Streamlit Cloud
 Push your code to GitHub
 
 Create app on Streamlit Cloud
@@ -65,4 +65,5 @@ Set secrets for GOOGLE_API_KEY and DATABASE_URL
 Set main file path to main.py
 
 (Optional) Add runtime.txt with python-3.10 to force Python version
+
 
