@@ -1,1 +1,7 @@
 googletrans==4.0.0-rc1
+streamlit
+google-generativeai
+python-dotenv
+googletrans==4.0.0-rc1
+sqlalchemy
+psycopg2-binary
