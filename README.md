@@ -51,7 +51,6 @@ DATABASE_URL="your-database-url"
 
 ## ⚡ Installation & Running Locally
 
-```bash
 pip install -r requirements.txt
 streamlit run main.py
 
@@ -65,5 +64,49 @@ Set secrets for GOOGLE_API_KEY and DATABASE_URL
 Set main file path to main.py
 
 (Optional) Add runtime.txt with python-3.10 to force Python version
+
+---
+
+##🐳 Deploy via Docker
+Build and run:
+docker build -t syncpro-bot .
+docker run -p 8501:8501 --env-file .env syncpro-bot
+
+---
+
+##💬 Example Usage
+Open your app in browser (locally: http://localhost:8501 or via cloud)
+
+Choose your AI model (Gemini/Gemma)
+
+Type your question (any language)
+
+View chat history and switch themes
+
+Download chat anytime
+
+---
+
+##🛡️ License
+This project is for educational and demonstration purposes.
+See LICENSE for details.
+
+---
+
+##🙏 Acknowledgements
+Streamlit
+
+Google Gemini API
+
+Supabase PostgreSQL
+
+googletrans
+
+
+---
+
+**Want a project logo, badge, or extra usage screenshots? Let me know!**
+
+
 
 
