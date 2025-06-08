@@ -54,7 +54,7 @@ DATABASE_URL="your-database-url"
 pip install -r requirements.txt
 streamlit run main.py
 
-##☁️ Deploying to Streamlit Cloud
+## ☁️ Deploying to Streamlit Cloud
 Push your code to GitHub
 
 Create app on Streamlit Cloud
@@ -67,14 +67,14 @@ Set main file path to main.py
 
 ---
 
-##🐳 Deploy via Docker
+## 🐳 Deploy via Docker
 Build and run:
 docker build -t syncpro-bot .
 docker run -p 8501:8501 --env-file .env syncpro-bot
 
 ---
 
-##💬 Example Usage
+## 💬 Example Usage
 Open your app in browser (locally: http://localhost:8501 or via cloud)
 
 Choose your AI model (Gemini/Gemma)
@@ -87,13 +87,13 @@ Download chat anytime
 
 ---
 
-##🛡️ License
+## 🛡️ License
 This project is for educational and demonstration purposes.
 See LICENSE for details.
 
 ---
 
-##🙏 Acknowledgements
+## 🙏 Acknowledgements
 Streamlit
 
 Google Gemini API
